@@ -1,3 +1,5 @@
+[![Build Status][travis-badge]][travis-link]
+
 # fish-pf
 provide functions to specify the running platform on fish shell.
 
@@ -18,3 +20,8 @@ if pf is-linux
     # write config for Linux
 end
 ```
+
+
+[travis-link]: https://travis-ci.org/nana4gonta/fish-pf
+[travis-badge]: https://img.shields.io/travis/nana4gonta/fish-pf.svg
+[fisherman]: https://github.com/fisherman/fisherman
